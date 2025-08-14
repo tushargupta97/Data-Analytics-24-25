@@ -85,6 +85,35 @@ This guide is designed to help you **understand, practice, and master SQL** for 
 - Triggers – BEFORE, AFTER events
 - Automating tasks with triggers
 
+### 15. **🛡 Transaction Control Language (TCL)**
+TCL commands manage transactions in a database, ensuring **data integrity**.
+
+| Command | Description |
+|---------|-------------|
+| `COMMIT` | Saves all changes made by the current transaction. |
+| `ROLLBACK` | Undoes all changes made by the current transaction. |
+| `SAVEPOINT` | Sets a point within a transaction to which you can later roll back. |
+| `SET TRANSACTION` | Configures the properties of a transaction. |
+
+### 16.  **🔐 Data Control Language (DCL)**
+
+DCL commands control access rights & permissions in a database.
+
+**Command  	    Description** 
+**GRANT**	        Gives a user access privileges to the database.
+**REVOKE**	      Removes previously granted privileges from a user.
+
+Example:
+
+GRANT SELECT, INSERT ON employees TO 'user1'@'localhost';
+REVOKE INSERT ON employees FROM 'user1'@'localhost';
+
+**Example:**
+```sql
+START TRANSACTION;
+UPDATE accounts SET balance = balance - 100 WHERE account_id = 1;
+UPDATE accounts SET balance = balance + 100 WHERE account_id = 2;
+COMMIT;
 ---
 
 ## 📌 How to Use These Notes
