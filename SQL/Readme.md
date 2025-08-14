@@ -104,18 +104,6 @@ DCL commands control access rights & permissions in a database.
 | `GRANT` | Gives a user access privileges to the database.|
 | `REVOKE` | Removes previously granted privileges from a user.|
 
-Example:
-
-GRANT SELECT, INSERT ON employees TO 'user1'@'localhost';
-REVOKE INSERT ON employees FROM 'user1'@'localhost';
-
-**Example:**
-```sql
-START TRANSACTION;
-UPDATE accounts SET balance = balance - 100 WHERE account_id = 1;
-UPDATE accounts SET balance = balance + 100 WHERE account_id = 2;
-COMMIT;
-```
 ---
 
 ## 📌 How to Use These Notes
