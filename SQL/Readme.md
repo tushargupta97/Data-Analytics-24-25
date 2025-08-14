@@ -99,9 +99,10 @@ TCL commands manage transactions in a database, ensuring **data integrity**.
 
 DCL commands control access rights & permissions in a database.
 
-**Command  	    Description** 
-**GRANT**	        Gives a user access privileges to the database.
-**REVOKE**	      Removes previously granted privileges from a user.
+| Command | Description |
+|---------|-------------|
+| `GRANT` | Gives a user access privileges to the database.|
+| `REVOKE` | Removes previously granted privileges from a user.|
 
 Example:
 
