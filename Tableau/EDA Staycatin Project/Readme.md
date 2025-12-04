@@ -75,7 +75,7 @@ All sheets were cleaned and joined (using Listing ID) for analysis.
 ### ⭐ **D. Price Vs Total Earning **
 - Price Vs Total Earning for Hosts
 - Price Vs Total Earning for Listed Properties
-![Price Vs Total Earning Dashboard](Dashboards/TopEarners.png)
+![Price Vs Total Earning Dashboard](Dashboards/PriceVsTotalEarnings.png)
   
   
 ### ⭐ **E. Price Analysis**
