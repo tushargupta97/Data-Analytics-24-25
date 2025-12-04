@@ -47,7 +47,7 @@ Includes:
 - Price  
 - Availability (0 or 1)  
 
-All sheets were cleaned and joined (using Listing ID) for analysis.
+All sheets were joined (using Listing ID) for analysis.
 
 ---
 
